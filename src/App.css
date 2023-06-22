@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -26,6 +26,60 @@
 
 .App-link {
   color: #61dafb;
+}
+.errmsg{
+  color: red;
+}
+.header{
+  width: 100%;
+  background-color: #61dafb;
+  color: #ffff;
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none !important;
+  color: black !important;
+  padding: 2px;
+  font-size: 20px;
+  font-weight: bold !important;
+}
+a:hover{
+  color: rgb(231, 88, 207) !important;
+}
+.home-title{
+  font-weight: bold;
+}
+.app-check{
+  height: 15px;
+  width: 15px;
+  margin: 1%;
+}
+.username-span{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(240, 8, 109) !important;
+  padding-left: 200px !important;
+}
+.logout-btn{
+  font-weight:bold !important ;
+}
+
+.token-code{
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: rgb(10, 7, 163);
+  font-size: 40px !important;
+  font-weight: bold;
+  text-align: end;
+  margin-right: 50px !important;
+  margin-top: 450px !important;
+}
+
+.all-users-btn{
+  font-weight: lighter !important;
 }
 
 @keyframes App-logo-spin {
